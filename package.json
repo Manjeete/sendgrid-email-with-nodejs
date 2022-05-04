@@ -1,0 +1,37 @@
+{
+  "name": "sendgrid-email-with-nodejs",
+  "version": "1.0.0",
+  "description": "Send email using nodejs and sendgrid",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manjeete/sendgrid-email-with-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sendgrid",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Manjeet Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manjeete/sendgrid-email-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/Manjeete/sendgrid-email-with-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "html-to-text": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.4",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2",
+    "sendgrid": "^5.2.3"
+  }
+}
